@@ -1,0 +1,85 @@
+body {
+	
+	height: 100%;
+	background: #337ab7;
+}
+@media (max-width:350px){
+	body{
+        width:350px;
+        }
+}
+.div_sub_titulo{
+	background-color: #f8f8f8;
+	text-align: center;
+	border:1px solid #eee;
+}
+
+.topo{
+	padding: 5px;
+	margin-top: 20px;
+	margin-left: 12px;
+}
+
+.titulo{
+	padding: 0px;
+	color:#fff;
+	text-align: center;
+	font-family: arial;
+}
+.sub_titulo{
+	color:#0b659d;
+	font-family: arial;
+	font-size: 18px;
+}
+.sub_titulo_2{
+	font-family: arial;
+	font-size: 14px;
+	text-align: center;
+}
+
+.corpo{
+	background-color: #fdfdff;
+}
+.centro {	
+	border-radius: 5px 5px 5px 5px;
+	border: .1px solid #eee;
+	text-align: center;
+}
+
+.centro_temperatura {
+	background: #f8f8f8;
+	margin-left: 8%;
+	margin-right: 8%;
+	border-radius: 7px 7px 7px 7px;
+	--webkit-box-shadow: 1px 1px 2px #2d2c2c, -1px 1px 1px #eee;
+	-moz-box-shadow: 1px 1px 2px #2d2c2c, -1px 1px 1px #eee;
+	box-shadow: 1px 1px 2px #2d2c2c, -1px 1px 1px #eee;
+	text-align: center;
+}
+.centro_botao {
+	margin-left: 4%;
+	margin-right: 4%;
+	text-align: center;
+}
+
+.pre_rodape{
+	background-color: #eee;
+	-webkit-box-shadow: 0 0 3px 1px rgba(0,0,0,.25);
+    -moz-box-shadow: 0 0 3px 1px rgba(0,0,0,.25);
+    box-shadow: 0 0 3px 1px rgba(0,0,0,.25);
+}
+.rodape{
+	background: #337ab7;
+    color:#fff;
+    text-align: center;
+    font-family: verdana;
+	font-size: 15px;
+}
+input:required:invalid {
+	background: #ffc4c4;
+	color: #b50000;
+}
+input:required:valid {
+	color: #003f1b;
+	background: #49ff97;
+}
